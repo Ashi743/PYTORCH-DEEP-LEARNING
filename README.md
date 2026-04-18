@@ -17,15 +17,17 @@ PyTorch · Optuna · MLflow · DagsHub · Python
 
 ## Experiment Tracking
 Live MLflow runs on DagsHub:
-[View Experiments](https://dagshub.com/Ashi743/your-repo-name)
+[View Experiments]([https://dagshub.com/Ashi743/your-repo-name](https://dagshub.com/deendayalbhai420/custom_mlflow_repo.mlflow/#/experiments/0/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D))
 
 ## Results (ANN)
 | Metric | Value |
 |--------|-------|
-| Best Val Accuracy | xx% |
-| Best LR | x.xxxx |
-| Best Batch Size | xx |
-| Best Hidden Size | xxx |
+| Best Val Accuracy | 89% |
+| Best LR | 0.018 |
+| Best Batch Size | 32 |
+| Best Dropout Rate | 0.355 |
+| Best Neurons per layers | 88 |
+| Best optimizer | SGD |
 
 ## Setup
 pip install -r requirements.txt
