@@ -42,5 +42,16 @@ REPO AT: git clone https://dagshub.com/deendayalbhai420/custom_mlflow_repo.git
 | Best Neurons per layers | 88 |
 | Best optimizer | ADAM |
 
+## Results (CNN-TF-VGG16) - CIFAR10
+| Metric | Value |
+|--------|-------|
+| Best Val Accuracy | 80% |
+| Best LR | 0.001 |
+| Best Batch Size | 32 |
+| Best Dropout Rate | 0.3 |
+| Pretrained  model | VGG16 |
+| Epochs | 10 |
+| Best optimizer | ADAM |
+
 ## Setup
 pip install -r requirements.txt
